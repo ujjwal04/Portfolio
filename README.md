@@ -1,3 +1,3 @@
-![Astro Workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/astro.yaml/badge.svg)
+![Astro Workflow](https://github.com/ujjwal04/portfolio/actions/workflows/astro.yaml/badge.svg)
 
 Ujjwal's Portfolio
