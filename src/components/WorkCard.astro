@@ -1,0 +1,44 @@
+---
+import type { IWorkExperience } from './WorkExperience.astro';
+
+const workExperience = Astro.props.workExperience as IWorkExperience;
+---
+
+<li class='mb-10 ml-4'>
+  <div
+    class='absolute w-3 h-3 bg-primary rounded-full mt-1.5 -left-1.5 dark:border-gray-900 dark:bg-gray-700'
+  >
+  </div>
+  <time
+    class="mb-1 text-sm font-['Fira_Code'] font-normal leading-none text-gray-400 dark:text-gray-500"
+    >{workExperience.time}</time
+  >
+  <h3 class='text-2xl py-1 font-semibold text-gray-900 dark:text-white'>
+    {workExperience.designation}
+  </h3>
+  <h5 class='text-base font-semibold text-primary dark:text-white'>
+    {workExperience.company}
+  </h5>
+  <ul class='list-disc pl-3 text-[#707C80]' id='description'>
+    <!-- <li>
+      Worked with Walmart Canada Catalog team to replace Tibco EMS Queues with
+      <span class='font-bold text-primary'>Kafka</span> to stream different sku data.
+      <br /> Tech Stack - Scala, Spark, Kafka
+    </li>
+    <li>
+      Worked on the backend of a data sharing web app called En- reach under
+      HBS(HashedIn Business School) backend dev team.
+    </li>
+    <li>
+      Developed the <span class='font-bold text-primary'
+        >OTP based authentication system</span
+      >, the quiz module and the responses of the quizzes. <br /> Tech Stack - Spring
+      Boot, JPA, Postgres
+    </li> -->
+    {
+      workExperience.description.map((description: string) => (
+        <li class='p-1'>{description}</li>
+      ))
+    }
+  </ul>
+</li>
