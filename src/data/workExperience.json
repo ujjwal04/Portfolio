@@ -1,0 +1,40 @@
+[
+ {
+    "time":"June 2021 - Present",
+    "designation":"Software Engineer I",
+    "company":"Hashedin by Deloite",
+    "description":[
+      "Worked with Walmart Canada Catalog team to replace Tibco EMS Queues with Kafka to stream different skus data.",
+      "Tech Stack - Scala, Spark, Kafka",
+      "Worked on the backend of a data sharing web app called En-reach under HBS(HashedIn Business School) backend dev team.",
+      "Developed the OTP based authentication system, the quiz module and the responses of the quizzes.",
+      "Tech Stack - Spring Boot, JPA, Postgres"
+   ]
+ },
+ {
+   "time":"March 2021 - June 2021",
+   "designation":"Software Engineer Intern",
+   "company":"Hashedin by Deloite",
+   "description":[
+     "Worked on a food recommendation engine named YourNextMeal to plan diets and suggest meals.",
+     "Tech Stack - Scala, Spark, Kafka",
+     "Worked on the backend of a data sharing web app called En-reach under HBS(HashedIn Business School) backend dev team.",
+     "Developed the OTP based authentication system, the quiz module and the responses of the quizzes.",
+     "Tech Stack - Spring Boot, JPA, Postgres",
+     "Developed the cron jobs and push notifications on the back-end.",
+     "Worked on the recommendation part in the frontend and also developed the web app to make it a PWA.",
+     "Tech Stack - React, NodeJS, Postgres."
+   ]
+ },
+ {
+   "time":"Jul 2020 - Sept 2020",
+   "designation":"Frontend Intern",
+   "company":"FlickHub",
+   "description":[
+     "Revamped the frontend of the web app which works as an OTT aggregator platform.",
+     "Improved the performance of the web app by implementing techniques like debouncing and infinite scrolling.",
+     "Also contributed in building a chrome extension which enables 2 users to watch a youtube video together in sync with video chat.",
+     "Tech Stack: JavaScript, React.js, Material UI, Firebase"
+  ]
+ }
+]

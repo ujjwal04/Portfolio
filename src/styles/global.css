@@ -1,8 +1,5 @@
 body, html{
     margin:0;
     padding:0;
-}
-
-html {
-    font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    font-family: 'Inter', sans-serif;
 }

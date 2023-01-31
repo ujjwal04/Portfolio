@@ -41,6 +41,7 @@ module.exports = {
       },
       parserOptions: {
         sourceType: 'module',
+        ecmaVersion: 'latest',
       },
       rules: {
         // override/add rules settings here, such as:
