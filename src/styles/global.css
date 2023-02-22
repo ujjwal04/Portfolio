@@ -1,5 +1,11 @@
-body, html{
+body, html {
     margin:0;
     padding:0;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* For Shadow on scroll in navbar*/
+.scrolled {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }

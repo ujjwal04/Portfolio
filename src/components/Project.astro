@@ -1,0 +1,19 @@
+---
+import ProjectCard from './ProjectCard.astro';
+
+export interface IProject {
+  name: string;
+  description: string;
+  tech_stack: string[];
+  link: string;
+}
+
+const projects: IProject[] = (await import('./../data/projects.json')).default;
+---
+
+<section id='projects'>
+  <h1 class='text-center m-auto text-3xl mb-10'>Projects</h1>
+  <div class='flex flex-wrap justify-center gap-10'>
+    {projects.map((project) => <ProjectCard project={project} />)}
+  </div>
+</section>
