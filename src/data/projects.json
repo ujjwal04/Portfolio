@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Socialize-frontend",
+        "description":"Frontend of the a social media website built using ReactJS ⚛️where user can upload a post , like, comment and reply on other posts.",
+        "tech_stack":["React","Redux"],
+        "link":"https://github.com/ujjwal04/social-media-frontend"
+    },
+    {
+        "name":"Socialize-backend",
+        "description":"Backend of a social media website built using NodeJS where user can upload a post, like, comment and reply on other posts.",
+        "tech_stack":["NodeJS","express","sequelize","mysql"],
+        "link":"https://github.com/ujjwal04/social-media-backend"
+    },
+    {
+        "name":"Online Learning Platform",
+        "description":"A web app where teachers 👨‍🏫 can upload content and students 👨‍🎓 can login/signup and watch the content and can also review the content. It also consists of quiz 📝 which can be setup by teachers.",
+        "tech_stack":["Bootstrap","PHP"],
+        "link":"https://github.com/ujjwal04/Online-Learning-Platform"
+    }
+]

@@ -1,14 +1,17 @@
-<header class='px-[25px] py-[20px] position: fixed top-0 w-full h-[60px]'>
+<header
+  class='px-[25px] py-[20px] position: fixed top-0 w-full h-[60px] z-10 bg-[#fff] ease-out duration-300'
+  id='navbar'
+>
   <nav class='text-[15px] font-[400] flex justify-between'>
     <div><a href='#'>Ujjwal Verma</a></div>
     <ul class='flex justify-around w-1/2'>
-      <li><a>About</a></li>
-      <li><a>Experience</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Contact</a></li>
+      <li><a href='#about'>About</a></li>
+      <li><a href='#experience'>Experience</a></li>
+      <li><a href='#projects'>Projects</a></li>
+      <li><a href='#contacts'>Contact</a></li>
       <li>
         <a
-          class='border-2 px-[16px] py-[10px]'
+          class='border-2 px-[16px] py-[10px] rounded-md border-primary text-primary'
           href='https://drive.google.com/file/d/1PlAg_N342aLc2FNdy754XgKO3BEXWUvs/view?usp=sharing'
           target='_blank'>Resume</a
         >
@@ -16,3 +19,15 @@
     </ul>
   </nav>
 </header>
+<script>
+  const navbar = document.getElementById('navbar');
+  window.onscroll = () => {
+    console.log(window.scrollY);
+    if (!navbar) return;
+    if (window.scrollY > 22) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  };
+</script>
